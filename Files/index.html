@@ -5,15 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
+  <title>Orthoph'On</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link href="css/style.min.css" rel="stylesheet">
+  <link href="css/mdb.css" rel="stylesheet">
 </head>
 
 <body>
@@ -22,12 +20,13 @@
   <header>
 
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar">
       <div class="container">
 
         <!-- Brand -->
-        <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
-          <strong class="blue-text">Orthoph'On</strong>
+        <a class="navbar-brand waves-effect" href="#" target="_blank">
+            <img class="pull-left" src="img/logo/orthophon.png" height="50px" alt="Orthoph'On">
+          <strong class="pink-text">Orthoph'On</strong>
         </a>
 
         <!-- Collapse -->
@@ -41,25 +40,16 @@
 
           <!-- Left -->
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link waves-effect" href="#">Accueil
-                <span class="sr-only">(current)</span>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="#" target="_blank">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">Le programme</a>
+              <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">Exercices</a>
             </li>
             <li class="nav-item">
               <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/getting-started/download/"
                 target="_blank">Téléchargements</a>
             </li>
-          </ul>
-
-          <!-- Right -->
-          <ul class="navbar-nav nav-flex-icons">
-              <li class="nav-item">
-                <a class="nav-link waves-effect" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">L'équipe</a>
-              </li>
           </ul>
 
         </div>
@@ -75,63 +65,41 @@
   <main class="mt-5 pt-5">
     <div class="container">
 
-      <!--Section: Jumbotron-->
-      <section class="card blue-gradient wow fadeIn" id="intro">
-
-        <!-- Content -->
-        <div class="card-body text-white text-center py-5 px-5 my-5">
-
-          <h1 class="mb-4">
-            <strong>Learn Bootstrap 4 with MDB</strong>
-          </h1>
-          <p>
-            <strong>Best & free guide of responsive web design</strong>
-          </p>
-          <p class="mb-4">
-            <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written
-              versions available. Create your own, stunning website.</strong>
-          </p>
-          <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
-            free tutorial
-            <i class="fas fa-graduation-cap ml-2"></i>
-          </a>
-
-        </div>
-        <!-- Content -->
-      </section>
-      <!--Section: Jumbotron-->
-
       <!--Section: Cards-->
       <section class="pt-5">
 
+        <!-- Logo du projet -->
+        <img src="img/logo/orthophon-text.png" class="img-fluid mx-auto d-block" alt="Orthoph'On" style="padding-bottom: 30px;">
+
         <!-- Heading & Description -->
         <div class="wow fadeIn">
-          <!--Section heading-->
-          <h2 class="h1 text-center mb-5">Les Exercices</h2>
           <!--Section description-->
-          <p class="text-center">MDB is world's most popular Material Design framework for building responsive,
-            mobile-first websites
-            and apps. </p>
-          <p class="text-center mb-5 pb-5">Trusted by over
-            <strong>400 000</strong> developers and designers. Easy to use & customize. 400+ material UI elements,
-            templates
-            & tutorials.</p>
+          <p class="text-center">
+              <strong>Orthoph'On</strong> est un logiciel de rééducation, destinées aux personnes présentant des problèmes de coordination,
+              de mémoire ou de réflexion.
+          </p>
+          <p class="text-center">
+              Il est doté d'une structure <strong>modulaire</strong>, composée d'exercices <strong>téléchargeables</strong> selon les besoins du patient.
+          </p>
+          <p class="text-center pb-5">
+             Les exercices sont développés en partenariat avec des <strong>professionnels de la santé</strong>, afin de répondre au mieux aux besoins du patient.
+          </p>
         </div>
         <!-- Heading & Description -->
+
+        <!--Section heading-->
+        <h2 class="h1 text-center mb-5">Les Exercices</h2>
 
         <!--Grid row-->
         <div class="row wow fadeIn">
 
           <!--Grid column-->
           <div class="col-lg-5 col-xl-4 mb-4">
-            <!--Featured image-->
-            <div class="view overlay rounded z-depth-1-half">
-              <div class="view overlay">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
-                </div>
-              </div>
-            </div>
+              <!--Featured image-->
+                <a href="https://mdbootstrap.com/education/tech-marketing/web-push-introduction/" target="_blank">
+                  <img src="img/exercice/memory.png" class="img-fluid mx-auto d-block" alt="Memory">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
           </div>
           <!--Grid column-->
 
@@ -140,14 +108,13 @@
             <h3 class="mb-3 font-weight-bold dark-grey-text">
               <strong>Exercice 1 - Memory</strong>
             </h3>
-            <p class="grey-text">Get started with MDBootstrap, the world's most popular Material Design framework for
-              building responsive,
-              mobile-first sites.</p>
+            <p class="black-text">Un exercice de mémoire. Le patient doit retrouver les paires de cartes identiques,
+            en retournant les cartes deux par deux.</p>
             <p>
-              <strong>5 minutes, a few clicks and... done. You will be surprised at how easy it is.</strong>
+              <strong>Comporte plusieurs niveaux de difficulté.</strong>
             </p>
-            <a href="https://www.youtube.com/watch?v=cXTThxoywNQ" target="_blank" class="btn btn-primary btn-md">Start
-              tutorial
+            <a href="#" target="_blank"
+              class="btn btn-primary btn-md">Voir l'exercice
               <i class="fas fa-play ml-2"></i>
             </a>
           </div>
@@ -164,25 +131,24 @@
           <!--Grid column-->
           <div class="col-lg-5 col-xl-4 mb-4">
             <!--Featured image-->
-            <div class="view overlay rounded z-depth-1">
-              <img src="https://mdbootstrap.com/wp-content/uploads/2017/11/brandflow-tutorial-fb.jpg" class="img-fluid"
-                alt="">
               <a href="https://mdbootstrap.com/education/tech-marketing/automated-app-introduction/" target="_blank">
+                <img src="img/exercice/operations.png" class="img-fluid mx-auto d-block" alt="Opérations">
                 <div class="mask rgba-white-slight"></div>
               </a>
-            </div>
           </div>
           <!--Grid column-->
 
           <!--Grid column-->
           <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
             <h3 class="mb-3 font-weight-bold dark-grey-text">
-              <strong>Exercice 2 - J'te ZIAK</strong>
+              <strong>Exercice 2 - Opérations</strong>
             </h3>
-            <p class="grey-text">Learn how to create a smart website which learns your user and reacts properly to his
-              behavior.</p>
+            <p class="black-text">Un exercice de calcul. Le patient doit retrouver le bon résultat d'une opération, pour une opération simple.</p>
+            <p>
+              <strong>Comporte plusieurs niveaux de difficulté.</strong>
+            </p>
             <a href="https://mdbootstrap.com/education/tech-marketing/automated-app-introduction/" target="_blank"
-              class="btn btn-primary btn-md">Start tutorial
+              class="btn btn-primary btn-md">Voir l'exercice
               <i class="fas fa-play ml-2"></i>
             </a>
           </div>
@@ -199,25 +165,23 @@
           <!--Grid column-->
           <div class="col-lg-5 col-xl-4 mb-4">
             <!--Featured image-->
-            <div class="view overlay rounded z-depth-1">
-              <img src="https://mdbootstrap.com/wp-content/uploads/2018/01/push-fb.jpg" class="img-fluid" alt="">
               <a href="https://mdbootstrap.com/education/tech-marketing/web-push-introduction/" target="_blank">
+                <img src="img/exercice/ecriture.png" class="img-fluid mx-auto d-block" alt="Écriture">
                 <div class="mask rgba-white-slight"></div>
               </a>
-            </div>
           </div>
           <!--Grid column-->
 
           <!--Grid column-->
           <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
             <h3 class="mb-3 font-weight-bold dark-grey-text">
-              <strong>Exercice 3 - Gros Gros SK(QUI)RT</strong>
+              <strong>Exercice 3 - Écriture</strong>
             </h3>
-            <p class="grey-text">Push messaging provides a simple and effective way to re-engage with your users and in
-              this tutorial
-              you'll learn how to add push notifications to your web app</p>
-            <a href="https://mdbootstrap.com/education/tech-marketing/web-push-introduction/" target="_blank" class="btn btn-primary btn-md">Start
-              tutorial
+            <p class="black-text">Un exercice d'écriture. Le patient doit parvenir à réécrire le mot qui est affiché à l'écran, sans fautes.</p>
+            <p>
+              <strong>Comporte plusieurs niveaux de difficulté.</strong>
+            </p>
+            <a href="https://mdbootstrap.com/education/tech-marketing/web-push-introduction/" target="_blank" class="btn btn-primary btn-md">Voir l'exercice
               <i class="fas fa-play ml-2"></i>
             </a>
           </div>
@@ -228,15 +192,40 @@
 
         <hr class="mb-5">
 
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-5 col-xl-4 mb-4">
+            <!--Featured image-->
+            <a href="https://mdbootstrap.com/education/tech-marketing/web-push-introduction/" target="_blank">
+                <img src="img/exercice/coming-soon.png" class="img-fluid mx-auto d-block" alt="Coming Soon">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
+            <h3 class="mb-3 font-weight-bold dark-grey-text">
+              <strong>Coming soon !</strong>
+            </h3>
+            <p class="black-text">D'autres exercices sont en cours de développement. Ils seront mis en ligne très bientôt !</p>
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
         <!--Pagination-->
         <nav class="d-flex justify-content-center wow fadeIn">
-          <ul class="pagination pg-blue">
+          <ul class="pagination pg-pink">
 
             <!--Arrow left-->
             <li class="page-item disabled">
               <a class="page-link" href="#" aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only">Précédent</span>
               </a>
             </li>
 
@@ -245,14 +234,12 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="page-item">
-              <a class="page-link" href="#">2</a>
-            </li>
 
-            <li class="page-item">
+            <!--Arrow Right-->
+            <li class="page-item disabled">
               <a class="page-link" href="#" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">Suivant</span>
               </a>
             </li>
           </ul>
@@ -262,23 +249,21 @@
       </section>
       <!--Section: Cards-->
 
+
     </div>
   </main>
   <!--Main layout-->
 
   <!--Footer-->
-  <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+  <footer class="page-footer text-center font-small mdb-color pink lighten-3 mt-4 wow fadeIn">
 
     <!--Call to action-->
     <div class="pt-4">
       <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank"
-        role="button">Download MDB
+        role="button">Télécharger Orthoph'On
         <i class="fas fa-download ml-2"></i>
       </a>
-      <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">Start
-        free tutorial
-        <i class="fas fa-graduation-cap ml-2"></i>
-      </a>
+
     </div>
     <!--/.Call to action-->
 
